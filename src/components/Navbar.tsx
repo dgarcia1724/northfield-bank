@@ -27,7 +27,7 @@ export default function Navbar() {
           <div className="flex items-center sm:hidden">
             <button
               onClick={toggleMenu}
-              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-red-700 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-red-700 focus:outline-none cursor-pointer"
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
@@ -85,12 +85,6 @@ export default function Navbar() {
               >
                 Transfers
               </Link>
-              <Link
-                href="/profile"
-                className="text-white hover:bg-red-700 px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Profile
-              </Link>
             </div>
           </div>
         </div>
@@ -115,12 +109,6 @@ export default function Navbar() {
               className="text-white hover:bg-red-700 block px-3 py-2 rounded-md text-base font-medium"
             >
               Transfers
-            </Link>
-            <Link
-              href="/profile"
-              className="text-white hover:bg-red-700 block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Profile
             </Link>
           </div>
         </div>
